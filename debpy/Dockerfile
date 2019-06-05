@@ -5,7 +5,7 @@ RUN \
 apt update && \
 
 #Install python3 and pip3
-adocker pt install python3 python3-pip -y && \
+apt docker install python3 python3-pip -y && \
 
 #clear cache packages
 apt-get clean autoclean && \
